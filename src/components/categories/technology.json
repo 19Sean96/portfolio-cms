@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_categories_technologies",
+  "info": {
+    "displayName": "Technology",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "technology_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

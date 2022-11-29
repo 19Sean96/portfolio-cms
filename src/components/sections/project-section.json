@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_project_section_project_sections",
+  "info": {
+    "displayName": "project_section",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "text",
+      "required": true
+    },
+    "section_media": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

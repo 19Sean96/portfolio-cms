@@ -12,28 +12,53 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "Title": {
       "type": "string",
       "required": true,
       "unique": true
     },
-    "subtitle": {
+    "Subtitle": {
       "type": "string"
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
-    "release_date": {
+    "Date": {
       "type": "date",
       "required": true
     },
-    "roles": {
-      "type": "json",
+    "Demo": {
+      "type": "string",
       "required": true
     },
-    "technology": {
-      "type": "json"
+    "Repository": {
+      "type": "string"
+    },
+    "Main_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.project-section",
+      "required": true
+    },
+    "Roles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "categories.roles"
+    },
+    "Technology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "categories.technology"
+    },
+    "Description": {
+      "type": "text",
+      "required": false,
+      "unique": false
     }
   }
 }

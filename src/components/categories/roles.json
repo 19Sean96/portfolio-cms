@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_categories_roles",
+  "info": {
+    "displayName": "Roles",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "role_title": {
+      "type": "string"
+    }
+  }
+}
